@@ -39,7 +39,7 @@
 
 /* NavBar */
 .navbar-item {
-  color: #ece5c770; /* myMilkYellow */
+  color: #ece5c770; /* myMilkYellow + Alpha */
 }
 
 .navbar-item:hover,

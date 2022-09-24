@@ -6,8 +6,6 @@ import Typography from "@mui/material/Typography";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import Box from "@mui/material/Box";
 import Slide from "@mui/material/Slide";
-import Button from "@mui/material/Button";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 import { myMintGreen, myNavy } from "../MyLibrary/MyColors";
 import Logo from "../assets/Logo/Logo-pure.png";
@@ -46,17 +44,6 @@ export default function NavBar() {
     { name: "Contact", url: "#contact" },
   ];
 
-  const buttonTheme = createTheme({
-    palette: {
-      primary: {
-        main: "#c2ded1",
-      },
-      secondary: {
-        main: "#000000",
-      },
-    },
-  });
-
   return (
     <HideOnScroll>
       <AppBar style={{ backgroundColor: myNavy }}>
@@ -89,18 +76,6 @@ export default function NavBar() {
                 {`${item.name}`}
               </a>
             ))}
-            <ThemeProvider theme={buttonTheme}>
-              <Button
-                variant="outlined"
-                style={{
-                  fontFamily: "SFMono-Regular",
-                  fontSize: 13,
-                  margin: 10,
-                }}
-              >
-                {"Resume"}
-              </Button>
-            </ThemeProvider>
           </Box>
         </Toolbar>
       </AppBar>
