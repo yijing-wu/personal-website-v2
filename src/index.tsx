@@ -8,18 +8,22 @@ import reportWebVitals from "./reportWebVitals";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Contactexample from "./routes/contactexample";
+import { basename } from "path";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "contacts/:contactId",
-    element: <Contactexample />,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "contacts/:contactId",
+      element: <Contactexample />,
+    },
+  ],
+  { basename: process.env.PUBLIC_URL }
+);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

@@ -46,6 +46,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Deployed to Github Page
-run `npm run deploy` to deploy
-
-ref: https://hackernoon.com/how-to-deploy-a-react-app-to-github-pages
+- The first time to deploy
+  - ref: https://hackernoon.com/how-to-deploy-a-react-app-to-github-pages
+- After that:
+  - push to `Github`, then run `npm run deploy` locally to deploy
+  - If success, will see `Published` in terminal
