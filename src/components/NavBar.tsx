@@ -51,13 +51,14 @@ export default function NavBar() {
           <Typography
             variant="h6"
             component="a"
-            href="/"
             sx={{
               flexGrow: 1,
               display: { xs: "none", sm: "block", md: "flex" },
             }}
           >
-            <img src={Logo} style={{ width: 50 }} alt="Logo" />
+            <a href="/" style={{ display: "flex", alignItems: "center" }}>
+              <img src={Logo} style={{ width: 50 }} alt="Logo" />
+            </a>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item, index) => (
