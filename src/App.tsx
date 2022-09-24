@@ -1,4 +1,7 @@
 import React from "react";
+
+import Grid from "@mui/material/Grid";
+
 import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
@@ -9,6 +12,7 @@ import Footer from "./components/Footer";
 import Work from "./components/Work";
 import About from "./components/About";
 import Home from "./components/Home";
+import Social from "./components/Social";
 
 function App() {
   return (
@@ -27,14 +31,23 @@ function App() {
           Learn React
         </a>
       </header> */}
+
       <NavBar />
-      <Home />
-      <About />
-      <Education />
-      <Experience />
-      <Work />
-      <Contact />
-      <Footer />
+      <Grid container>
+        <Grid item xs={1}>
+          <Social />
+        </Grid>
+        <Grid item xs={10}>
+          <Home />
+          <About />
+          <Education />
+          <Experience />
+          <Work />
+          <Contact />
+          <Footer />
+        </Grid>
+        <Grid item xs={1}></Grid>
+      </Grid>
     </div>
   );
 }

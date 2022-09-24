@@ -8,7 +8,6 @@ import reportWebVitals from "./reportWebVitals";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Contactexample from "./routes/contactexample";
-import { basename } from "path";
 
 const router = createBrowserRouter(
   [

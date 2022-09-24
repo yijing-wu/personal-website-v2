@@ -1,5 +1,4 @@
 import React from "react";
-import { myNavy } from "../MyLibrary/MyColors";
 
 function Home() {
   return (

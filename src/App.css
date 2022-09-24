@@ -42,6 +42,31 @@
   color: #ece5c770; /* myMilkYellow */
 }
 
-.navbar-item:hover {
+.navbar-item:hover,
+.navbar-item:focus {
+  color: #c2ded1; /* myMintGreen */
+}
+
+/* Social */
+.social-list::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0 auto;
+  background-color: #ece5c770; /* myMilkYellow */
+}
+
+.social-list li:hover,
+.social-list li:focus {
+  transform: translateY(-3px);
+}
+
+.social-list a {
+  color: #ece5c770; /* myMilkYellow */
+}
+
+.social-list a:hover,
+.social-list a:focus {
   color: #c2ded1; /* myMintGreen */
 }
