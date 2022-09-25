@@ -61,6 +61,7 @@ function Experience() {
       <div
         style={{
           width: 700,
+          minHeight: 350,
           margin: "auto",
         }}
       >
@@ -70,12 +71,14 @@ function Experience() {
           style={{ marginBottom: 40 }}
         />
         <div style={{ display: "flex", flexDirection: "row" }}>
-          <div>
+          <div style={{ position: "relative" }}>
             <div
+              className="selectedBar"
               style={{
                 position: "absolute",
                 width: 2,
                 height: 40,
+                top: 40 * selected,
                 backgroundColor: myMintGreen,
               }}
             />

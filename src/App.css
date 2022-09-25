@@ -67,6 +67,10 @@
 }
 
 /* Experience */
+#experience .selectedBar {
+  transition: linear 0.3s;
+}
+
 #experience .duty:before {
   content: "▹";
   line-height: 15px;
