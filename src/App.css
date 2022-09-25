@@ -66,6 +66,14 @@
   color: #c2ded1d2; /* myMintGreen */
 }
 
+/* Experience */
+#experience .duty:before {
+  content: "▹";
+  line-height: 15px;
+  color: #c2ded1d2; /* myMintGreen */
+  margin-right: 10px;
+}
+
 /* Social */
 .social-list::after {
   content: "";

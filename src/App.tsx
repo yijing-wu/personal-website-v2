@@ -41,7 +41,7 @@ function App() {
           <div style={{ paddingLeft: 45, paddingRight: 45 }}>
             <Home />
             <About />
-            <Education />
+            {/* <Education /> */}
             <Experience />
             <Work />
             <Contact />

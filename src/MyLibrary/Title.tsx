@@ -33,7 +33,14 @@ export default function Title({
           marginRight: 10,
         }}
       >{`0${index}.`}</Text>
-      <Text style={{ fontSize: 32, lineHeight: 0.9, marginRight: 20 }}>
+      <Text
+        style={{
+          fontFamily: "Calibre-Semibold",
+          fontSize: 32,
+          lineHeight: 0.9,
+          marginRight: 20,
+        }}
+      >
         {content}
       </Text>
       <div

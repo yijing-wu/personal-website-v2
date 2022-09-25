@@ -67,8 +67,8 @@ function About() {
       style={{
         paddingLeft: 50,
         paddingRight: 50,
-        marginTop: 100,
-        marginBottom: 100,
+        paddingTop: 100,
+        paddingBottom: 100,
       }}
     >
       <Title index={1} content={"About Me"} />
@@ -84,9 +84,10 @@ function About() {
             <Paragraph3 />
             <Paragraph4 />
             <ul className="skills-list">
-              {skillList.map((skill) => {
+              {skillList.map((skill, index) => {
                 return (
                   <li
+                    key={"skill" + index}
                     style={{
                       display: "flex",
                       flexDirection: "row",
@@ -94,6 +95,7 @@ function About() {
                       fontSize: 14,
                       color: myMintGreenC0Alpha,
                       fontFamily: "SFMono-Regular",
+                      marginBottom: 3,
                     }}
                   >
                     &nbsp;
