@@ -18,6 +18,7 @@ function Social() {
         zIndex: 1,
         listStyle: "none",
         margin: 0,
+        marginLeft: 10,
       }}
     >
       <li style={itemStyle}>

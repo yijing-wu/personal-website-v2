@@ -50,14 +50,13 @@ export default function NavBar() {
         <Toolbar>
           <Typography
             variant="h6"
-            component="a"
             sx={{
               flexGrow: 1,
               display: { xs: "none", sm: "block", md: "flex" },
             }}
           >
             <a href="/" style={{ display: "flex", alignItems: "center" }}>
-              <img src={Logo} style={{ width: 50 }} alt="Logo" />
+              <img src={Logo} style={{ width: 50, margin: 10 }} alt="Logo" />
             </a>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>

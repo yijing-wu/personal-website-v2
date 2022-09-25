@@ -47,6 +47,25 @@
   color: #c2ded1; /* myMintGreen */
 }
 
+/* About */
+#about .skills-list {
+  width: 460px;
+  margin: 0;
+  padding: 0;
+}
+
+#about .skills-list li {
+  width: 230px;
+  float: left;
+  display: block;
+}
+
+#about .skills-list li::before {
+  content: "▹";
+  line-height: 10px;
+  color: #c2ded1d2; /* myMintGreen */
+}
+
 /* Social */
 .social-list::after {
   content: "";

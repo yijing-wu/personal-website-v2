@@ -6,7 +6,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Text from "../MyLibrary/Text";
 import {
   myMilkYellow70Alpha,
-  myMilkYellowA0Alpha,
+  myMilkYellowC0Alpha,
   myMintGreen,
 } from "../MyLibrary/MyColors";
 
@@ -29,8 +29,8 @@ function Home() {
     <div
       id="head"
       style={{
-        paddingTop: 200,
-        paddingBottom: 200,
+        paddingTop: 150,
+        paddingBottom: 150,
       }}
     >
       <Text
@@ -49,7 +49,7 @@ function Home() {
         style={{
           fontFamily: "Calibre-Semibold",
           fontSize: 80,
-          color: myMilkYellowA0Alpha,
+          color: myMilkYellowC0Alpha,
         }}
       >
         Lorem ipsum dolor sit amet

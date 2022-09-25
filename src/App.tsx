@@ -33,18 +33,20 @@ function App() {
       </header> */}
 
       <NavBar />
-      <Grid container>
+      <Grid container spacing={12}>
         <Grid item xs={1}>
           <Social />
         </Grid>
         <Grid item xs={10}>
-          <Home />
-          <About />
-          <Education />
-          <Experience />
-          <Work />
-          <Contact />
-          <Footer />
+          <div style={{ paddingLeft: 45, paddingRight: 45 }}>
+            <Home />
+            <About />
+            <Education />
+            <Experience />
+            <Work />
+            <Contact />
+            <Footer />
+          </div>
         </Grid>
         <Grid item xs={1}></Grid>
       </Grid>
