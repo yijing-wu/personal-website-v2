@@ -15,23 +15,6 @@ const myAboutMe = [
   "Sed vulputate odio ut enim blandit volutpat maecenas volutpat. Massa tincidunt dui ut ornare. Eu augue ut lectus arcu.  Ac ut consequat semper viverra nam libero.",
 ];
 
-const myEducationList = [
-  {
-    school: "Northeastern University",
-    degree: "Master",
-    major: "Information Systems",
-    startDate: "September 2021",
-    endDate: "Present",
-  },
-  {
-    school: "Tongji University",
-    degree: "Bachelor",
-    major: "Communication Engineering",
-    startDate: "September 2017",
-    endDate: "June 2021",
-  },
-];
-
 const mySkillList = [
   "Java",
   "React",
@@ -43,12 +26,4 @@ const mySkillList = [
   "Django",
 ];
 
-export {
-  myGreeting,
-  myName,
-  myTitle,
-  myBriefIntro,
-  myAboutMe,
-  myEducationList,
-  mySkillList,
-};
+export { myGreeting, myName, myTitle, myBriefIntro, myAboutMe, mySkillList };
