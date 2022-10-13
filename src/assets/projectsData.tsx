@@ -115,7 +115,7 @@ const projectOne = {
     </>
   ),
   tools: ["React", "JavaScript", "Python", "PostgreSQL"],
-  mainLink: "/",
+  mainLink: "/projectone",
   isMainLinkExternal: false,
   githubLink: "",
 };
@@ -140,7 +140,7 @@ const projectTwo = {
     </>
   ),
   tools: ["React", "JavaScript", "Node.js"],
-  mainLink: "",
+  mainLink: "projecttwo",
   isMainLinkExternal: false,
   githubLink: "",
 };

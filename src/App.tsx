@@ -16,7 +16,7 @@ import Home from "./components/Home";
 import Social from "./components/Social";
 import Archive from "./components/Archive";
 
-import { ProjectOne } from "./projectPages";
+import { ProjectOne, ProjectTwo } from "./projectPages";
 
 const router = createBrowserRouter(
   [
@@ -41,6 +41,10 @@ const router = createBrowserRouter(
     {
       path: "/projectone",
       element: <ProjectOne />,
+    },
+    {
+      path: "/projecttwo",
+      element: <ProjectTwo />,
     },
   ],
   { basename: process.env.PUBLIC_URL }
