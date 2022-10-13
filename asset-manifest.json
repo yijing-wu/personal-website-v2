@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personal-website-v2/static/css/main.32d7b56d.css",
-    "main.js": "/personal-website-v2/static/js/main.eabcb3f5.js",
-    "static/js/787.b53db9e9.chunk.js": "/personal-website-v2/static/js/787.b53db9e9.chunk.js",
+    "main.js": "/personal-website-v2/static/js/main.74274155.js",
+    "static/js/787.86e442ec.chunk.js": "/personal-website-v2/static/js/787.86e442ec.chunk.js",
     "static/media/ProfilePhoto.png": "/personal-website-v2/static/media/ProfilePhoto.7e5adaee377ccf56b425.png",
     "static/media/circle.png": "/personal-website-v2/static/media/circle.c1c01956621442f2938f.png",
     "static/media/personalWebsite2022.png": "/personal-website-v2/static/media/personalWebsite2022.5244e54014738a768992.png",
@@ -38,11 +38,11 @@
     "static/media/Calibre-Medium.woff2": "/personal-website-v2/static/media/Calibre-Medium.568dce56f869a519a015.woff2",
     "index.html": "/personal-website-v2/index.html",
     "main.32d7b56d.css.map": "/personal-website-v2/static/css/main.32d7b56d.css.map",
-    "main.eabcb3f5.js.map": "/personal-website-v2/static/js/main.eabcb3f5.js.map",
-    "787.b53db9e9.chunk.js.map": "/personal-website-v2/static/js/787.b53db9e9.chunk.js.map"
+    "main.74274155.js.map": "/personal-website-v2/static/js/main.74274155.js.map",
+    "787.86e442ec.chunk.js.map": "/personal-website-v2/static/js/787.86e442ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32d7b56d.css",
-    "static/js/main.eabcb3f5.js"
+    "static/js/main.74274155.js"
   ]
 }
