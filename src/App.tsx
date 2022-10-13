@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Grid from "@mui/material/Grid";
@@ -16,12 +16,7 @@ import Home from "./components/Home";
 import Social from "./components/Social";
 import Archive from "./components/Archive";
 
-import {
-  CameraCalibration,
-  EEG,
-  IntelligentCars,
-  SmithChart,
-} from "./projectPages";
+import { ProjectOne } from "./projectPages";
 
 const router = createBrowserRouter(
   [
@@ -44,20 +39,8 @@ const router = createBrowserRouter(
     },
     // projects
     {
-      path: "/smithchart",
-      element: <SmithChart />,
-    },
-    {
-      path: "/cameracalibration",
-      element: <CameraCalibration />,
-    },
-    {
-      path: "/eeg",
-      element: <EEG />,
-    },
-    {
-      path: "/intelligentcars",
-      element: <IntelligentCars />,
+      path: "/projectone",
+      element: <ProjectOne />,
     },
   ],
   { basename: process.env.PUBLIC_URL }
