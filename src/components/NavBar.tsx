@@ -10,7 +10,7 @@ import Slide from "@mui/material/Slide";
 import { myMintGreen, myNavy } from "../MyLibrary/MyColors";
 import Logo from "../assets/Logo/Logo-pure.png";
 
-interface Props {
+interface HideOnScrollProps {
   /**
    * Injected by the documentation to work in an iframe.
    * You won't need it on your project.
@@ -19,7 +19,7 @@ interface Props {
   children: React.ReactElement;
 }
 
-function HideOnScroll(props: Props) {
+function HideOnScroll(props: HideOnScrollProps) {
   const { children, window } = props;
   // Note that you normally won't need to set the window ref as useScrollTrigger
   // will default to window.
@@ -37,11 +37,10 @@ function HideOnScroll(props: Props) {
 
 export default function NavBar() {
   const navItems = [
-    { name: "About", url: "#about" },
-    // { name: "Education", url: "#education" },
-    { name: "Experience", url: "#experience" },
-    { name: "Work", url: "#work" },
-    { name: "Contact", url: "#contact" },
+    { name: "About", url: "/#about" },
+    { name: "Experience", url: "/#experience" },
+    { name: "Work", url: "/#work" },
+    { name: "Contact", url: "/#contact" },
   ];
 
   return (
